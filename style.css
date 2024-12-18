@@ -1,0 +1,159 @@
+
+body, h2, h3, p, nav a, ol, li, table, tr, td, input, textarea, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #EEEEEE; 
+    margin: auto;
+    width: 90%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header  {
+    height: 100px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.banner {
+    position: relative;
+    text-align: center;
+    background-color: #ddd;
+    margin: 0;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+    margin: 50px;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #0077cc;
+}
+
+main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+main ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+main ol li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+main table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+main table td {
+    padding: 10px;
+    text-align: left;
+}
+
+main table td input, main table td textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+main table td label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+main table td input[type="submit"], main table td input[type="reset"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main table td input[type="submit"]:hover, main table td input[type="reset"]:hover {
+    background-color: #005fa3;
+}
+
+main table td input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+main hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer h3 {
+    font-size: 1em;
+}
