@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma IT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="IT.png" type="image/x-icon">
+</head>
+<body>
+    <header> 
+        <div class="logo">
+            <img src="IT.png" alt="firma it">
+        </div>
+        <nav>
+            <a href="index.html">Strona Główna</a>
+            <a href="uslugi.html">Usługi</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+        </header>
+    <section class="banner">
+        <img src="baner3.gif" alt="Usługi informatyczne">
+    </section>
+    
+    <main>
+        <h2>Kontakt</h2>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td>Imię:</td>
+                    <td><input type="text" name="first_name" required></td>
+                </tr>
+                <tr>
+                    <td>Nazwisko:</td>
+                    <td><input type="text" name="last_name" required></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Zgłoszenie:</td>
+                    <td><textarea name="message" rows="5" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="checkbox">Zgadzam się z regulaminem </label></td>
+                    <td>
+                        <input type="checkbox" id="checkbox" name="terms" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Wyślij"></td>
+                    <td><input type="reset" value="Wyczyść"></td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+    </main>
+
+    <footer>
+        <h3>Autor strony: Romaniuk Denis</h3>
+    </footer>
+</body>
+</html>
